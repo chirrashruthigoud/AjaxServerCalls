@@ -39,7 +39,7 @@ console.log(" User Deleted  "+data)
 makeAJAXCall ("DELETE", deleteURL, userDeleted, false);*/
 
 const postURL = "http://localhost:3000/employees";
-const empData = { "name": "siri", "salary": "5000" };
+const empData = { "name": "Harry", "salary": "5000" };
 function userAdded(data) {
     console.log(" User Added: " + data)
     console.log("User Added at: " + showTime() + "data: " + data)
